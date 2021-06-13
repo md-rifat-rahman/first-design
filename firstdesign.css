@@ -1,0 +1,576 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_bar{
+    background: #F8F9FA;
+}
+
+.nav-link{
+    font-size: 13px!important;
+    font-family: 'Playfair Display', serif:!important;
+    font-weight: 600;
+
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+}
+
+.one{
+    background-image:url(doctor%201.jpg)
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.two{
+    background-image:url(doctor%202.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.three{
+    background-image:url(doctor%201.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.overlay{
+    height: 100%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.overlay h2, .overlay h3{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    
+    padding-left: 150px;
+
+
+}
+
+.overlay h4{
+    color: white;
+    font-size: 40px;
+    font-family: 'Oxygen', sans-serif;
+
+
+}
+
+.welcome{
+    height: 250px;
+    width: 100%;
+}
+
+.welcome h2{
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.welcome p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+   color: gray;
+    
+}
+
+.analysis,advice,strategy{
+     height: 250px;
+    width: 100%;
+}
+
+.analysis img{
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.analysis h6{
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+.analysis p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+
+.advice img{
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.advice h6{
+    margin-top: 15px;
+    text-align: center;
+
+}
+.advice p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+
+.strategy img{
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.strategy h6{
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+.strategy p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+}
+
+ 
+.content{
+    height: 350px;
+    width: 100%;
+    background: #D9F3FF;
+    
+}
+
+.progress{
+    height: 3px!important;
+    width: 100%;
+    margin: 15px 0px;
+    
+    
+}
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: darkred;
+    transition: width .6s ease;
+    padding-top: 80px!important;
+}
+.content h6{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content p{
+    margin-top: 40px;
+    
+}
+
+.content p::first-letter{
+    font-size: 400%;
+    font-weight: bold;
+    color: #263A5F;
+}
+
+.progress h5{
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.count{
+    background: #384349;
+    padding: 10px 0px;
+}
+.all-count{
+    
+    height: 350px;
+    width: 100%;
+    background: #384349;
+}
+
+.icon{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 40px;
+    color: #FF5252;
+}
+
+.count-1 h1{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 100;
+    font-size: 45px!important;
+    font-weight: 400!important;
+}
+
+.count-1 p{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+
+
+.count-2 h1{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Ruda', sans-serif;
+    font-size: 45px!important;
+    font-weight: 400!important;
+}
+
+.count-2 p{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+
+.count-3 h1{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Ruda', sans-serif;
+    font-size: 45px!important;
+    font-weight: 400!important;
+}
+
+.count-3 p{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+
+.count-4 h1{
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Ruda', sans-serif;
+    font-size: 45px!important;
+    font-weight: 400!important;
+}
+
+.count-4 p{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.second-welcome{
+    width: 100%;
+    height: 250px;
+}
+.second-welcome h2{
+    margin-top: 90px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.second-welcome p{
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+    color: gray;
+}
+
+.all-info{
+    widows: 100%;
+    height: 250px;
+}
+
+.second-icon{
+    font-size: 40px;
+    color: #FF5252;
+}
+
+.head{
+    font-size: 18px;
+    
+}
+
+.para{
+    margin-top: 10px;
+    font-size: 15px;
+    color: gray;
+}
+
+.button-bg{
+    background: #57CDD7;
+
+}
+
+.text, .button{
+    width: 100%;
+    height: 120px;
+    background: #57CDD7;
+}
+
+.text h4{
+    margin-top: 50px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Slabo 27px', serif;
+
+}
+
+.button-box{
+    margin-top: 40px;
+    background: #FF5252;
+    padding: 10px 30px;
+    border: 2px solid #FF5252;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.button-box:hover{
+    color: black;
+}
+
+.study{
+    width: 100%;
+    height: 220px;
+}
+
+.study h2{
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.study p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nanum Myeongjo', serif;
+   color: gray;
+}
+
+.pic-sec{
+    width: 100%;
+    height: 500px;
+}
+
+
+.head-1{
+    margin-top: 15px;
+    color: gray;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+
+}
+
+.head-2{
+    font-size: 20px;
+}
+
+.para-1{
+    margin-top: 15px;
+    color: gray;
+}
+
+.link-1, .link-3{
+    margin-top: 35px;
+}
+
+.link-2{
+    margin-top: 10px;
+}
+
+.link-1 a, .link-2 a, .link-3 a{
+    color: gray;
+}
+
+.link-1 a:hover, .link-2 a:hover, .link-3 a:hover{
+    color: #FF5252;
+}
+
+.different{
+    background: #D9F3FF;
+
+}
+
+.dif-font{
+    width: 100%;
+    height: 120px;
+    background: #D9F3FF;
+}
+
+.end-sec{
+    background: #001118;
+}
+
+.end, .end-2, .end-3{
+    width: 100%;
+    height: 400px;
+    background: #001118;
+}
+
+.end img{
+    margin-top: 100px;
+}
+.end h5{
+    color: #FF5252;
+}
+
+.para-3{
+    margin-top: 30px;
+    color: gray;
+}
+
+.end-2 h5{
+    color: gray;
+    margin-top: 125px;
+    margin-left: 25px;
+}
+
+.end-2 a{
+    margin: 25px;
+    color: gray;
+}
+
+.end-2 a:hover{
+    color: #FF5252;
+}
+
+.end-3 h5, p{
+    color: gray;
+}
+
+.end-3 h5{
+    margin-top: 125px;
+    margin-left: 25px;
+}
+
+.end-3 p{
+    margin-left: 25px;
+    margin-top: 20px;
+
+}
+
+/*nav bar padding*/
+
+.navigation_bar ul li a{
+    padding: 0px 20px!important;
+}
+
+
+
+.counter{
+    background-image: url(bg_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+        background: rgba(25, 36, 42, .8);
+    padding: 150px 0px;
+}
+.counter_wrap{
+    text-align: center;
+    color: white!important;
+}
+.info_wrapper{
+    text-align: center;
+}
+.info_wrapper i{
+    font-size: 40px;
+    
+    color: cyan;
+}
+
+
+.carousel-item{
+   height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-image: url(doctor%202.jpg);
+}
+
+.common_slider_design h1{
+    color: black;
+    margin-left: 130px;
+    margin-top: 250px;
+    font-size: 60px;
+}
+
+.common_slider_design h4{
+    margin-left: 130px;
+
+}
+
+.experience{
+    margin-left: 130px;
+    padding: 3px 13px;
+    background: #FF5252;
+    border: 2px solid #FF5252;
+    color: white;
+    font-size: 15px;
+}
+
+.experience:hover{
+    
+    color: black;
+    background: #FF8282;
+        border: 2px solid #FF8282;
+
+}
+
+.different{
+    text-align: center;
+}
+.dif_img{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
